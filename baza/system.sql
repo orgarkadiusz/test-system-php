@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 20 Wrz 2020, 21:20
+-- Czas generowania: 21 Wrz 2020, 23:14
 -- Wersja serwera: 10.4.14-MariaDB
 -- Wersja PHP: 7.4.10
 
@@ -196,8 +196,7 @@ CREATE TABLE `imiona` (
 --
 
 INSERT INTO `imiona` (`id`, `imie`) VALUES
-(1, ' '),
-(2, 'Arkadiusz');
+(1, ' test');
 
 -- --------------------------------------------------------
 
@@ -215,8 +214,7 @@ CREATE TABLE `nazwiska` (
 --
 
 INSERT INTO `nazwiska` (`id`, `nazwisko`) VALUES
-(1, ' '),
-(2, 'Orgaś');
+(1, ' test');
 
 -- --------------------------------------------------------
 
@@ -565,13 +563,13 @@ ALTER TABLE `grupy`
 -- AUTO_INCREMENT dla tabeli `imiona`
 --
 ALTER TABLE `imiona`
-  MODIFY `id` int(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT dla tabeli `nazwiska`
 --
 ALTER TABLE `nazwiska`
-  MODIFY `id` int(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT dla tabeli `rejestracje`
