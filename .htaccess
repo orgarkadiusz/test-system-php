@@ -1,0 +1,7 @@
+php_value include_path 'D:/OneDrive/Projekty/test-system-php/'
+#php_value include_path 'F:/OneDrive/htdocs/'
+#php_value include_path 'C:/Users/arkadiusz.orgas/OneDrive/Projekty/test-system-php/
+
+#RewriteEngine On
+#RewriteRule ^index.(php|html|htm)$ / [R=301,L]
+#RewriteRule ^([a-z0-9-_]+)/index.(php|html|htm)$ /$1/ [R=301,L]
