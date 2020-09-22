@@ -17,6 +17,7 @@ Do uruchomienia programu może posłużyć dowolny serwer apache (xampp/wamp/lam
 2. W pliku .htaccess ustawić ścieżkę do folderu (php_value include_path)
 3. W bazie danych utworzyć bazę danych (system) i zaimportować tą znajdującą się w folderze 'baza/system.sql'
 4. W przypadku zajętej nazwy bazy danych lub zmienionych danych logowania zedytowac plik 'php/dane/dane.php'
+5. hasło i login użytkownika testowego to: test
 
 ## Dodatki
 W programie użyte są moduły zewnętrzne takie jak
